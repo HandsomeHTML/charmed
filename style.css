@@ -1,0 +1,200 @@
+/* color gradient is #F3A1B7 for pink and #FEC2B9 for creamy peach */
+
+
+/* generic styling for library */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+.header-div-one {
+    height: 45px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    background: linear-gradient(to right, #F3A1B7, #fec2b9);
+    text-align: center;
+}
+
+.nav-div-span {
+    position: relative;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 23.75px;
+    top: 25%;
+    color: white;
+    word-spacing: 2px;
+    font-family: "Caveat", cursive;
+    font-size: 16.pt;
+}
+
+.insta-charm-logo {
+    display: inline-block;
+    position: absolute;
+    padding-left: 15%;
+}
+
+.charm-logo {
+    display: inline;
+    position: relative;
+    margin: 0 auto;
+    top: 50%
+    
+}
+
+li a, span a, p a {
+    text-decoration: none;
+}
+
+li a {
+    color: #F3A1B7;
+}
+
+span a {
+    color: white;
+}
+
+ul {
+    margin: 27px 20px 20px;
+}
+
+li {
+    display: inline;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-right: 25px;
+    color: #F3A1B7;
+}
+
+li.border {
+    border: 5px solid #F3A1B7;
+    padding: 7px;
+    text-transform: uppercase;
+    background-color: white;
+    color: F3A1B7;
+}
+
+li.border:hover {
+    transition: .25s;
+    color: white;
+    background-color: #F3A1B7;
+    border: none;
+    color: white;
+}
+
+.p-contact{
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px;
+    font-size: 16pt;
+}
+
+.p-info {
+    padding: 15px;
+}
+
+.footer {
+    text-align: center;
+    color: #F3A1B7;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+
+
+/* styling for gallery page */
+
+.logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    opacity: 25%;
+}
+
+.logo-box {
+    height: 150px;
+    margin: 0 auto;
+    width: 25%;
+}
+
+
+/* breaking on PC browsers for some reason 
+.image-box-container {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    overflow: scroll;
+    margin: 30px auto;
+} 
+*/
+
+.image-box-container-a {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    overflow: scroll;
+    margin: 30px auto;
+} 
+
+
+.pic-container {
+    position: relative;
+    display: inline-block;
+    padding: 0px 40px 0px 25px;
+}
+
+.img-wide {
+    width: 375px;
+    margin-right: 20px;
+}
+
+.img-height {
+    height: 375px;
+}
+
+/* client did not like animations
+
+.fade-in-1 { animation: fadeIn 10s; }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.fade-in-2 { animation: fadeIn 11.25s; }
+  @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+.fade-in-3 { animation: fadeIn 11.5s; }
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+.fade-in-4 { animation: fadeIn 11.75s; }
+      @keyframes fadeIn {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
+        }
+
+.fade-in-5 { animation: fadeIn 12s; }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+          }
+*/
+
+.curve {
+    border-radius: 2.75%;
+}
